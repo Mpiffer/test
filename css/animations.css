@@ -1,0 +1,39 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+/* Custom animations */
+
+.animate-fade-in {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.animate-slide-in {
+    animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+.animate-zoom-in {
+    animation: zoomIn 1s ease-in-out;
+}
+
+@keyframes zoomIn {
+    0% {transform: scale(0);}
+    100% {transform: scale(1);}
+}
+
+.animate-rotate-in {
+    animation: rotateIn 1s ease-in-out;
+}
+
+@keyframes rotateIn {
+    0% {transform: rotate(-360deg);}
+    100% {transform: rotate(0deg);}
+}

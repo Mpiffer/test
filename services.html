@@ -3,33 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Website</title>
+    <title>Services</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/animations.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
 <body>
     <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
-        <!-- Navigation content will be loaded dynamically using JS -->
+        <!-- Navigation content will be loaded dynamically using jQuery -->
     </nav>
 
     <main id="main-content">
-        <!-- Main content will be loaded dynamically using JS -->
+        <section id="services" class="container">
+            <!-- Services content will be loaded dynamically using jQuery -->
+        </section>
     </main>
 
-    <footer id="footer">
-        <!-- Footer content will be loaded dynamically using JS -->
+    <footer id="footer" class="footer">
+        <!-- Footer content will be loaded dynamically using jQuery -->
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="js/main.js"></script>
     <script src="js/animations.js"></script>
     <script src="js/responsive.js"></script>
+    <script>
+        $(document).ready(function() {
+            loadServices();
+            animateElements();
+            makeResponsive();
+        });
+    </script>
 </body>
 </html>

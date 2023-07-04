@@ -1,0 +1,22 @@
+{
+  "name": "portfolio-landing-page",
+  "version": "1.0.0",
+  "description": "A responsive portfolio landing page",
+  "main": "src/scripts/main.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "webpack"
+  },
+  "keywords": ["portfolio", "landing page", "responsive"],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0"
+  }
+}
